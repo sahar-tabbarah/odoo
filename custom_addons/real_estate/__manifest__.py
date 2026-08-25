@@ -7,7 +7,11 @@
     'category': 'Real Estate',
     'license': 'LGPL-3',
     'depends': ['base'],
-    'data': [],
+    'data': [
+        'security/ir.model.access.csv',
+        'views/property_views.xml',
+        'views/menu.xml',
+    ],
     'installable': True,
     'application': True,
 }
